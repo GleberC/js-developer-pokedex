@@ -8,17 +8,22 @@ body {
 }
 
 .content {
+    text-align: center;
     width: 100vw;
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
 }
 
-@media screen and (min-width: 992px) {
-    .content {
+.content h1{
+    color: greenyellow;
+    text-transform: uppercase;
+    width: auto;
+    height: 2rem;
+}
+.content {
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
-}
